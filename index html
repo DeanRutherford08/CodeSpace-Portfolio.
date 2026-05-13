@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MK Time · Precision watches, Scottish spirit</title>
+  <meta name="description" content="MK Time crafts Swiss-quality watches in Edinburgh. Elegance and craftsmanship in every piece.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="home">
+  <div class="page-shell">
+    <div class="top-bar">Crafted in Edinburgh · Swiss movements · After-sales care</div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">MK <span>Time</span></a>
+        <nav aria-label="Main navigation">
+          <ul class="nav-main">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Watches</a></li>
+            <li><a href="signup.html">Sign up</a></li>
+            <li><a href="login.html">Log in</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="home-top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="hero-eyebrow">From Edinburgh</p>
+            <h1>Timeless elegance, forged by hand.</h1>
+            <p class="lead">
+              MK Time makes watches with conviction. Crisp lines, meticulous finishing, and Swiss movements chosen for reliability. Each piece reflects how far we will go for quality and how much we care about the details.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="products.html">Explore watches</a>
+              <a class="btn btn-ghost" href="signup.html">Create account</a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-visual-glow"></div>
+            <div class="accent-ring accent-ring--wide"></div>
+            <div class="accent-ring"></div>
+            <div class="watch-frame">
+              <div class="watch-face">
+                <span class="watch-tick"></span>
+                <span class="watch-tick watch-tick--3"></span>
+                <span class="watch-tick watch-tick--6"></span>
+                <span class="watch-tick watch-tick--9"></span>
+                <div class="watch-hands"></div>
+                <div class="watch-center"></div>
+                <div class="watch-brand">MK TIME</div>
+              </div>
+            </div>
+            <p class="hero-visual-caption">Edinburgh · Swiss calibre · Hand assembly</p>
+          </div>
+        </section>
+
+        <div class="trust-strip">
+          <div class="trust-strip__item">
+            <span class="trust-strip__label">Workshop</span>
+            <span class="trust-strip__value">Assembled in Edinburgh</span>
+          </div>
+          <div class="trust-strip__item">
+            <span class="trust-strip__label">Movement</span>
+            <span class="trust-strip__value">Swiss movements, carefully selected</span>
+          </div>
+          <div class="trust-strip__item">
+            <span class="trust-strip__label">Care</span>
+            <span class="trust-strip__value">Servicing and repairs on site</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="home-quote-wrap">
+        <blockquote class="home-quote">Time deserves a watch that keeps pace.</blockquote>
+        <p class="home-quote-sign">MK Time</p>
+      </div>
+
+      <section class="section section--after-quote">
+        <h2 class="section-title">Why MK Time</h2>
+        <p class="section-intro">
+          A growing brand rooted in accessible luxury e-commerce. We only sell what we fully stand behind: watches built to be worn for years, backed by servicing and repair when you need it.
+        </p>
+        <div class="three-cols">
+          <article class="card">
+            <h3>Quality first</h3>
+            <p>Cases, crystals, and straps are chosen to survive daily wear while keeping a refined silhouette.</p>
+          </article>
+          <article class="card">
+            <h3>Swiss heart</h3>
+            <p>We rely on movements respected for accuracy, the horological soul people expect from a serious watch.</p>
+          </article>
+          <article class="card">
+            <h3>Service you can trust</h3>
+            <p>Overhauls, repairs, and advice so your watch stays in expert hands long after purchase.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--closing">
+        <h2 class="section-title">Take your time</h2>
+        <p class="section-intro">
+          Browse the collection, open an account when you are ready, and sign in whenever you want to move forward. Restrained design and clear navigation, like a well-made watch.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">MK Time</div>
+          <p class="footer-note">Swiss movements · Designed and assembled in Edinburgh, United Kingdom.</p>
+        </div>
+        <div class="footer-links">
+          <a href="products.html">Watches</a>
+          <a href="signup.html">Sign up</a>
+          <a href="login.html">Log in</a>
+        </div>
+      </div>
+      <p class="copyright">© MK Time · All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
