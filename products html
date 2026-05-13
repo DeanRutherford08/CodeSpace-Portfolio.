@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watches · MK Time</title>
+  <meta name="description" content="MK Time watches for sale — Swiss movements, Edinburgh assembly, prices in GBP.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+  <link rel="preconnect" href="https://images.pexels.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <div class="top-bar">Crafted in Edinburgh · Swiss movements · After-sales care</div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo">MK <span>Time</span></a>
+        <nav aria-label="Main navigation">
+          <ul class="nav-main">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Watches</a></li>
+            <li><a href="signup.html">Sign up</a></li>
+            <li><a href="login.html">Log in</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <header class="page-hero">
+        <h1>Our watches</h1>
+        <p class="section-intro section-intro--narrow">
+          Every MK Time piece begins in Edinburgh around Swiss movements and careful assembly.
+        </p>
+      </header>
+
+      <section class="section" aria-labelledby="catalog-heading">
+        <h2 id="catalog-heading" class="visually-hidden">Catalogue</h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-card-visual product-card-visual--photo">
+              <img src="https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900" alt="Montre seule, pose produit, bracelet cuir" width="900" height="675" loading="lazy" decoding="async">
+            </div>
+            <div class="product-card-body">
+              <h3>Forth 38</h3>
+              <p class="product-meta">Automatic · 38 mm · Cuir</p>
+              <p class="product-price">£189</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card-visual product-card-visual--photo">
+              <img src="https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Gros plan d’une montre acier sur fond neutre" width="900" height="675" loading="lazy" decoding="async">
+            </div>
+            <div class="product-card-body">
+              <h3>Calton 40</h3>
+              <p class="product-meta">Automatic · 40 mm · Acier</p>
+              <p class="product-price">£265</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card-visual product-card-visual--photo">
+              <img src="https://images.unsplash.com/photo-1585123334904-845d60e97b29?w=900&q=80" alt="Montre sport chronographe" width="900" height="675" loading="lazy" decoding="async">
+            </div>
+            <div class="product-card-body">
+              <h3>Arthur’s Seat Chrono</h3>
+              <p class="product-meta">Quartz chrono · 42 mm · Bracelet caoutchouc</p>
+              <p class="product-price">£325</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card-visual product-card-visual--photo">
+              <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?w=900&q=80" alt="Montre habillée cadran sombre" width="900" height="675" loading="lazy" decoding="async">
+            </div>
+            <div class="product-card-body">
+              <h3>New Town Dress</h3>
+              <p class="product-meta">Automatic · 39 mm · Cuir crocodile</p>
+              <p class="product-price">£445</p>
+            </div>
+          </article>
+          <article class="product-card">
+            <div class="product-card-visual product-card-visual--photo">
+              <img src="https://images.unsplash.com/photo-1622434641406-a158123450f9?w=900&q=80" alt="Montre minimaliste fond clair" width="900" height="675" loading="lazy" decoding="async">
+            </div>
+            <div class="product-card-body">
+              <h3>Stockbridge Slim</h3>
+              <p class="product-meta">Quartz · 36 mm · Maille milanaise</p>
+              <p class="product-price">£149</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">MK Time</div>
+          <p class="footer-note">Swiss movements · Designed and assembled in Edinburgh, United Kingdom.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="signup.html">Sign up</a>
+          <a href="login.html">Log in</a>
+        </div>
+      </div>
+      <p class="copyright">© MK Time · All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
